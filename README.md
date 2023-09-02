@@ -1,6 +1,6 @@
-# OPML
-
-OPML is a Swift package for parsing and creating [OPML](http://dev.opml.org/spec2.html) files.
+# SwiftOPML
+This is a fork of [OPML](https://github.com/pixel-foundry/opml) by [Pixel Foundry](https://github.com/pixel-foundry).
+SwiftOPML is a Swift package for parsing and creating [OPML](http://dev.opml.org/spec2.html) files.
 
 This package aims to create an opinionated, but strongly-typed and correct implementation of the OPML spec. For instance, the [OPML spec](http://dev.opml.org/spec2.html) defines some rarely-used properties related to the internal state of a hypothetical desktop application, like `vertScrollState` and `windowTop`, which this implementation deems unnecessary and omits.
 
@@ -46,9 +46,9 @@ SwiftPM:
 
 ```swift
 dependencies: [
-    .package(name: "OPML", url: "https://github.com/pixel-foundry/opml", from: "0.0.1")
+    .package(name: "SwiftOPML", url: "https://github.com/joaoc-pires/SwiftOPML", from: "0.0.1")
 ],
 targets: [
-    .target(name: "YourTarget", dependencies: ["OPML"])
+    .target(name: "YourTarget", dependencies: ["SwiftOPML"])
 ]
 ```
