@@ -46,7 +46,7 @@ SwiftPM:
 
 ```swift
 dependencies: [
-    .package(name: "SwiftOPML", url: "https://github.com/joaoc-pires/SwiftOPML", from: "0.0.1")
+    .package(name: "SwiftOPML", url: "https://github.com/kkarimz/SwiftOPML", from: "0.0.1")
 ],
 targets: [
     .target(name: "YourTarget", dependencies: ["SwiftOPML"])
